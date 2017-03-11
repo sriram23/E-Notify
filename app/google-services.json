@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1019598313679",
+    "firebase_url": "https://e-notifier-11f49.firebaseio.com",
+    "project_id": "e-notifier-11f49",
+    "storage_bucket": "e-notifier-11f49.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019598313679:android:c4860401560b4ff1",
+        "android_client_info": {
+          "package_name": "com.example.sriram.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019598313679-d1ijnflfekjlagvk02jnhmj3898htnjp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sriram.myapplication",
+            "certificate_hash": "14ad0636c5bef765118b7047b8fbcfaa6e0e2cc6"
+          }
+        },
+        {
+          "client_id": "1019598313679-3fab7ug3prq696qth6ar8u3cf9rh5kof.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiFLfQrSE7al_x-S0CRi3Qn2WLWUDgNDE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019598313679-3fab7ug3prq696qth6ar8u3cf9rh5kof.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
