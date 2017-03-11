@@ -30,8 +30,12 @@
         android:layout_width="wrap_content"
         android:layout_height="75dp"
         android:padding="5dp"
-        android:layout_alignParentBottom="true"
-        android:background="#e6f0ff">
+        android:background="#e6f0ff"
+        android:layout_alignParentBottom="true">
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/nameLayout"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content">
         <EditText
             android:layout_width="250dp"
             android:layout_height="wrap_content"
@@ -43,14 +47,14 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginBottom="11dp" />
-
+        </android.support.design.widget.TextInputLayout>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
-            android:layout_alignBottom="@+id/editText"
-            android:layout_toRightOf="@+id/editText"
-            android:layout_toEndOf="@+id/editText"
+            android:layout_alignBottom="@+id/nameLayout"
+            android:layout_toRightOf="@+id/nameLayout"
+            android:layout_toEndOf="@+id/nameLayout"
             android:layout_marginLeft="10dp"
             android:layout_marginStart="10dp"
             android:background="@drawable/btn" />
